@@ -4,7 +4,7 @@
 
 
 
-`
+```bash
 victoire@victoire-Latitude-E7440:~/Videos/git exercises$ git init
 hint: Using 'master' as the name for the initial branch. This default branch name
 hint: is subject to change. To configure the initial branch name to use in all
@@ -74,5 +74,9 @@ Deleted branch test (was ddeba5b).
 victoire@victoire-Latitude-E7440:~/Videos/git exercises$ git push origin --delete test
 To https://github.com/izibyosevictoire/git-exercises.git
  - [deleted]         test
- 
-`
+
+```
+# exercise 2
+``` bash
+
+```

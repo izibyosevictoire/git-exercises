@@ -264,9 +264,7 @@ HEAD is now at 88a5c6d stash
 ## exercise 1
 -git checkout -b ft/bundle-2
 -git add .
--git commit -m "bundle-2 exercise 1"
-<<<<<<< Updated upstream
-=======
+-git commit -m "bundle-2 exercise 1
 
 ## exercise 2
 my branches
@@ -275,6 +273,7 @@ my branches
 * ft/service-redesign
   main
   ## exercise 3
+ft/faq-page
   victoire@victoire-Latitude-E7440:~/Videos/the gym/git exercises$ git log
 commit 82f04153a30cf12a586a34060677174b441d6c2f (HEAD -> ft/team-page, origin/ft/team-page)
 Author: victoire <luandavicky5@gmail.com>
@@ -298,4 +297,7 @@ Date:   Thu Jul 13 17:04:35 2023 +0200
     test
 :
 
->>>>>>> Stashed changes
+Stashed changes
+
+  
+main

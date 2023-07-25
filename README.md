@@ -265,3 +265,37 @@ HEAD is now at 88a5c6d stash
 -git checkout -b ft/bundle-2
 -git add .
 -git commit -m "bundle-2 exercise 1"
+<<<<<<< Updated upstream
+=======
+
+## exercise 2
+my branches
+  dev
+  ft/bundle-2
+* ft/service-redesign
+  main
+  ## exercise 3
+  victoire@victoire-Latitude-E7440:~/Videos/the gym/git exercises$ git log
+commit 82f04153a30cf12a586a34060677174b441d6c2f (HEAD -> ft/team-page, origin/ft/team-page)
+Author: victoire <luandavicky5@gmail.com>
+Date:   Tue Jul 25 10:15:33 2023 +0200
+
+    exercise3
+
+commit 36f400de2a99c34364b467b88926d937fa352a52 (origin/ft/service-redesign, ft/service-redesign)
+Author: victoire <luandavicky5@gmail.com>
+Date:   Thu Jul 13 17:19:54 2023 +0200
+
+    added changes on service.html
+
+commit 4c8464b34983e34c4930976b46e6311990dafa35 (origin/main, main, ft/contact-page)
+Merge: 2efaf7a c05b2e3
+Author: izibyosevictoire <114585574+izibyosevictoire@users.noreply.github.com>
+Date:   Thu Jul 13 17:04:35 2023 +0200
+
+    Merge pull request #2 from izibyosevictoire/ft/bundle-2
+    
+    test
+:
+
+>>>>>>> Stashed changes

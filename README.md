@@ -265,3 +265,12 @@ HEAD is now at 88a5c6d stash
 -git checkout -b ft/bundle-2
 -git add .
 -git commit -m "bundle-2 exercise 1"
+
+## exercise 2
+my branches
+  dev
+  ft/bundle-2
+* ft/service-redesign
+  main
+  ## exercise 3
+  

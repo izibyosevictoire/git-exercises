@@ -301,3 +301,83 @@ Stashed changes
 
   
 main
+## Bundle 4 
+### exercise 2 
+``` bash
+victoire@victoire-Latitude-E7440:~/Videos/the gym/git exercises$ git checkout -b ft/footer
+Switched to a new branch 'ft/footer'
+victoire@victoire-Latitude-E7440:~/Videos/the gym/git exercises$ git add .
+victoire@victoire-Latitude-E7440:~/Videos/the gym/git exercises$ git commit -m"first changes"
+[ft/footer 22a410d] first changes
+ 2 files changed, 2 insertions(+)
+victoire@victoire-Latitude-E7440:~/Videos/the gym/git exercises$ git add .
+victoire@victoire-Latitude-E7440:~/Videos/the gym/git exercises$ git commit -m"second"
+[ft/footer 50fe731] second
+ 1 file changed, 1 insertion(+)
+victoire@victoire-Latitude-E7440:~/Videos/the gym/git exercises$ git push
+fatal: The current branch ft/footer has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin ft/footer
+
+victoire@victoire-Latitude-E7440:~/Videos/the gym/git exercises$ git push --set-upstream origin ft/footer
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 717 bytes | 717.00 KiB/s, done.
+Total 7 (delta 5), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (5/5), completed with 3 local objects.
+remote: 
+remote: Create a pull request for 'ft/footer' on GitHub by visiting:
+remote:      https://github.com/izibyosevictoire/git-exercises/pull/new/ft/footer
+remote: 
+To https://github.com/izibyosevictoire/git-exercises.git
+ * [new branch]      ft/footer -> ft/footer
+Branch 'ft/footer' set up to track remote branch 'ft/footer' from 'origin'.
+victoire@victoire-Latitude-E7440:~/Videos/the gym/git exercises$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+victoire@victoire-Latitude-E7440:~/Videos/the gym/git exercises$ git checkout -b ft/squashing
+Switched to a new branch 'ft/squashing'
+victoire@victoire-Latitude-E7440:~/Videos/the gym/git exercises$ git squash merge ft/footer
+git: 'squash' is not a git command. See 'git --help'.
+
+The most similar command is
+        stash
+victoire@victoire-Latitude-E7440:~/Videos/the gym/git exercises$ git status
+On branch ft/squashing
+nothing to commit, working tree clean
+victoire@victoire-Latitude-E7440:~/Videos/the gym/git exercises$ git merge --squash ft/footer
+Updating 2312b76..50fe731
+Fast-forward
+Squash commit -- not updating HEAD
+ about.html | 1 +
+ home.html  | 2 ++
+ 2 files changed, 3 insertions(+)
+victoire@victoire-Latitude-E7440:~/Videos/the gym/git exercises$ git status
+On branch ft/squashing
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   about.html
+        modified:   home.html
+
+victoire@victoire-Latitude-E7440:~/Videos/the gym/git exercises$ git commit -m "footer changes squashing"
+[ft/squashing 815b103] footer changes squashing
+ 2 files changed, 3 insertions(+)
+victoire@victoire-Latitude-E7440:~/Videos/the gym/git exercises$ git push origin ft/squashing
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 495 bytes | 495.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+remote: 
+remote: Create a pull request for 'ft/squashing' on GitHub by visiting:
+remote:      https://github.com/izibyosevictoire/git-exercises/pull/new/ft/squashing
+remote: 
+To https://github.com/izibyosevictoire/git-exercises.git
+ * [new branch]      ft/squashing -> ft/squashing
+victoire@victoire-Latitude-E7440:~/Videos/the gym/git exercises$ git push origin ft/faq-page
+```

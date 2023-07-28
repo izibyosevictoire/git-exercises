@@ -302,6 +302,21 @@ Stashed changes
   
 main
 ## Bundle 4 
+# exercise 1
+``` bash 
+victoire@victoire-Latitude-E7440:~/Videos/the gym/git exercises$ git checkout main
+
+victoire@victoire-Latitude-E7440:~/Videos/the gym/git exercises$ git remote add git-copy https://github.com/izibyosevictoire/git-copy.git
+
+victoire@victoire-Latitude-E7440:~/Videos/the gym/git exercises$ git add .
+
+victoire@victoire-Latitude-E7440:~/Videos/the gym/git exercises$ git commit -m "bundle 4 exercise 1"
+
+victoire@victoire-Latitude-E7440:~/Videos/the gym/git exercises$ git push origin main
+
+victoire@victoire-Latitude-E7440:~/Videos/the gym/git exercises$ git push 
+
+```
 ### exercise 2 
 ``` bash
 victoire@victoire-Latitude-E7440:~/Videos/the gym/git exercises$ git checkout -b ft/footer

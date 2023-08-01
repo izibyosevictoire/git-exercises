@@ -301,3 +301,24 @@ Stashed changes
 
   
 main
+## Bundle 5
+# Exercise 1
+``` bash
+victoire@victoire-Latitude-E7440:~/Videos/the gym/git exercises$ git add .
+victoire@victoire-Latitude-E7440:~/Videos/the gym/git exercises$ git commit -m "bundle 5"
+[main e44af0c] bundle 5
+ 1 file changed, 12 insertions(+)
+ create mode 100644 index.html
+victoire@victoire-Latitude-E7440:~/Videos/the gym/git exercises$ git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 437 bytes | 437.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/izibyosevictoire/git-exercises.git
+   2312b76..e44af0c  main -> main
+victoire@victoire-Latitude-E7440:~/Videos/the gym/git exercises
+
+```
